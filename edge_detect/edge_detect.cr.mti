@@ -1,0 +1,115 @@
+E:/workspace/FPGA/components/edge_detect/shift_tab_2_2.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/components/edge_detect/shift_tab_2_2.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity shift_tab_2_2
+-- Compiling architecture control of shift_tab_2_2
+
+} {} {}} E:/workspace/FPGA/components/edge_detect/rom.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/components/edge_detect/rom.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity rom
+-- Compiling architecture syn of rom
+
+} {} {}} E:/workspace/FPGA/components/edge_detect/edge_dete.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/components/edge_detect/edge_dete.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity edge_dete
+-- Compiling architecture gaussian of edge_dete
+
+} {} {}} E:/workspace/FPGA/components/edge_detect/gaussian.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/components/edge_detect/gaussian.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity gaussian
+-- Compiling architecture gaussian of gaussian
+
+} {} {}} E:/workspace/FPGA/components/edge_detect/rom_tb.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/components/edge_detect/rom_tb.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Loading package txt_util
+-- Compiling entity rom_tb
+-- Compiling architecture behavior of rom_tb
+
+} {} {}} E:/workspace/FPGA/components/edge_detect/top.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/components/edge_detect/top.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity image_process
+-- Compiling architecture behavior of image_process
+
+} {} {}} E:/workspace/FPGA/components/edge_detect/fifo.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/components/edge_detect/fifo.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity fifo
+-- Compiling architecture behavioral of fifo
+
+} {} {}} E:/workspace/FPGA/components/edge_detect/rom_ctl.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/components/edge_detect/rom_ctl.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity rom_ctl
+-- Compiling architecture control of rom_ctl
+
+} {} {}} E:/workspace/FPGA/components/edge_detect/shift_tab_3_3.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/components/edge_detect/shift_tab_3_3.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity shift_tab_3_3
+-- Compiling architecture control of shift_tab_3_3
+
+} {} {}} E:/workspace/FPGA/components/edge_detect/sys_ctl.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/components/edge_detect/sys_ctl.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sys_ctl
+-- Compiling architecture control of sys_ctl
+
+} {} {}} E:/workspace/FPGA/components/edge_detect/txt_util.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/components/edge_detect/txt_util.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package txt_util
+-- Compiling package body txt_util
+-- Loading package txt_util
+
+} {} {}}

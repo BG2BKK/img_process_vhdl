@@ -24,11 +24,11 @@ end rom_tb;
  
 architecture behavior of rom_tb is 
  
-	file gaussian_file: text open write_mode is "gaussian.dat";
-	file edge_dete_file: text open write_mode is "edge_dete.dat";
-	file edge_gaussian_file: text open write_mode is "edge_gaussian.dat";
-	file u8_file: text open write_mode is "u8_result.dat";
-	file v8_file: text open write_mode is "v8_result.dat";
+--	file gaussian_file: text open write_mode is "gaussian.dat";
+--	file edge_dete_file: text open write_mode is "edge_dete.dat";
+--	file edge_gaussian_file: text open write_mode is "edge_gaussian.dat";
+--	file u8_file: text open write_mode is "u8_result.dat";
+--	file v8_file: text open write_mode is "v8_result.dat";
 
 	
 	component image_process is

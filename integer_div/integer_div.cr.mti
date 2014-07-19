@@ -1,0 +1,43 @@
+E:/workspace/FPGA/integer_div/op_sub.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/integer_div/op_sub.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity op_sub
+-- Compiling architecture op_sub of op_sub
+
+} {} {}} E:/workspace/FPGA/integer_div/txt_util.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/integer_div/txt_util.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package txt_util
+-- Compiling package body txt_util
+-- Loading package txt_util
+
+} {} {}} E:/workspace/FPGA/integer_div/op_div.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/integer_div/op_div.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity op_div
+-- Compiling architecture op_div of op_div
+
+} {} {}} E:/workspace/FPGA/integer_div/tb_op_divisor.vhd {1 {vcom -work work -2002 -explicit -vopt E:/workspace/FPGA/integer_div/tb_op_divisor.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package txt_util
+-- Compiling entity tb_op_divisor
+-- Compiling architecture test of tb_op_divisor
+
+} {} {}}

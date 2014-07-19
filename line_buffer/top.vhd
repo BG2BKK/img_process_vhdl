@@ -107,6 +107,30 @@ architecture behavior of image_process is
 			pix_addr: out std_logic_vector(addr_cnt - 1 downto 0)			
 	  );
 	end component;
+	
+	component shift_tab_2_2 is
+	generic (
+				constant data_width :	integer ;
+				constant addr_cnt	:	integer ;
+				constant alt_tap	:	integer ;
+				constant img_width	:	integer ;
+				constant img_height	:	integer ;			
+				constant window_size :	integer ;
+				constant rom_depth	: 	integer
+	);
+	port (
+			clk : in std_logic;
+			en : in std_logic;
+			rst : in std_logic;
+			din : in std_logic_vector(data_width-1 downto 0);
+			stream_on : in std_logic;		
+			r22,r21,r12,r11 : out std_logic_vector(data_width-1 downto 0);
+			pix_data_valid: out std_logic	;
+			pix_col : out std_logic_vector(addr_cnt -1 downto 0);
+			pix_row : out std_logic_vector(addr_cnt -1 downto 0);
+			pix_addr: out std_logic_vector(addr_cnt - 1 downto 0)
+		);
+	end component;
 
 	signal s_ctl_en: std_logic;	
 	signal s_rom_addr, s_pix_addr : std_logic_vector(addr_cnt -1  downto 0) := (others => '0');
@@ -192,7 +216,28 @@ begin
 		pix_addr => s_pix_addr			
 	);
 
-	
+	window_2_2: shift_tab_2_2 
+	generic map(
+		data_width	=> data_width,
+		addr_cnt	=> addr_cnt,
+		img_width	=> img_width,
+		img_height 	=> img_height,
+		window_size => window_size_2_2,
+		alt_tap		=> alt_tap_2_2,
+		rom_depth	=> rom_depth
+	)
+	port map(
+		clk	=> clk,
+		rst => rst,
+		en	=> s_ctl_en,
+		din => s_rom_out,		
+		stream_on => s_stream_on
+
+--		r11 => s1_r11,		r12 => s1_r12,		
+--		r21 => s1_r21,		r22 => s1_r22,						
+--		pix_data_valid => s_img_1_data_valid,		
+--		pix_addr => s_img_1_data_addr
+	);
 
 end behavior;
 
